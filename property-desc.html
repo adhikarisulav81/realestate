@@ -41,6 +41,27 @@
         </div>
         <!-- Spinner End -->
 
+        <ul class="info-top sticky-top">
+            <i class="fas fa-bookmark"></i> <a href="#" class="text-white"><span>&nbsp; Bookmark
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                </span></a></li>
+            <i class="fas fa-eye"></i> <a href="#" class="text-white"><span>&nbsp; Visit Request&nbsp; </span></a></li>
+        </ul>
+        <style>
+            .info-top {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                /* height: 100%; */
+                /* z-index: 99; */
+                font-size: 12px;
+                padding-right: 50px;
+                line-height: 40px;
+                background-color: var(--primary);
+                color: var(--light);
+            }
+        </style>
+
         <!-- Navbar Start -->
         <div class="container-fluid nav-bar bg-transparent">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
@@ -124,7 +145,7 @@
         </div>
         <!-- Search End -->
 
-        <!-- Contact Start -->
+        <!-- Comment Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -180,7 +201,80 @@
                 </div>
             </div>
         </div>
-        <!-- Contact End -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="comments">
+                        <div class="comment-box">
+                            <span class="commenter-name mt-3">
+                                <a href="#">Pujan Raj Rai</a> <span class="comment-time">2 hours ago</span>
+                            </span>
+                            <p class="comment-txt more">Comment Description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="comments">
+                        <div class="comment-box">
+                            <span class="commenter-name mt-3">
+                                <a href="#">Pujan Raj Rai</a> <span class="comment-time">2 hours ago</span>
+                            </span>
+                            <p class="comment-txt more">Comment Description</p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="comments">
+                        <div class="comment-box">
+                            <span class="commenter-name mt-3">
+                                <a href="#">Pujan Raj Rai</a> <span class="comment-time">2 hours ago</span>
+                            </span>
+                            <p class="comment-txt more">Comment Description</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .comments .comment-box {
+                width: 100%;
+                float: left;
+                height: 100%;
+                background-color: #FAFAFA;
+                padding: 10px 10px 10px;
+                margin-bottom: 15px;
+                border-radius: 5px;
+                border: 1px solid #ddd;
+            }
+
+            .comments .commenter-name .comment-time {
+                font-weight: normal;
+                margin-left: 8px;
+                font-size: 15px;
+            }
+
+            .comments p.comment-txt {
+                font-size: 15px;
+                border-bottom: 1px solid #ddd;
+                padding: 0px 0px 15px;
+            }
+
+            .comments .commenter-name {
+                display: inline-block;
+                position: relative;
+                top: -20px;
+                left: 10px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        </style>
+        <!-- Comment End -->
 
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
